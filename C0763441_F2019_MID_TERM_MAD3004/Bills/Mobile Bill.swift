@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class MobileBill{
+class MobileBill: Bill{
     
     //  Variable declaration
     var manufacturerName : String
@@ -16,6 +16,17 @@ class MobileBill{
     var minutesUsed : Int
     var internetUsed : Float
     var billAmount : Float
+    
+    //  Initializer
+    init(manufacturerName:String, planName:String, phoneNumber:Int, internetUsed:Float, minutesUsed:Int, billAmount:Float, billId : String, billType : bTypes, billDate: String) {
+        self.manufacturerName = manufacturerName
+        self.planName = planName
+        self.phoneNumber = phoneNumber
+        self.internetUsed = internetUsed
+        self.minutesUsed = minutesUsed
+        self.billAmount = billAmount
+        super.init(billId: billId, billDate: billDate, billType: billType)
+    }
     
     
 }
