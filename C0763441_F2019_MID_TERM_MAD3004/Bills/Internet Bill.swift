@@ -17,7 +17,7 @@ class InternetBill {
     //  Initializer
     init(providerName : String, gbUsed : Float, billAmount : Float, billId : String , billDate : String, billType : Bill.bTypes){
         
-        
+        super.init(billId: billId, billDate: billDate, billType: billType)
         self.providerName = providerName
         self.gbUsed = gbUsed
         self.billAmount = billAmount
