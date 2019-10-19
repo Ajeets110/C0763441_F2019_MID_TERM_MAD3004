@@ -33,7 +33,11 @@ class MobileBill: Bill{
         print("Bill ID : \(billID)")
         print("BillDate : \(billDate)")
         print("Bill Type : \(billType)")
-        print("<#T##items: Any...##Any#>")
+        print("Manufacturer Name : \(manufacturerName)")
+        print("Plan Name : \(planName)")
+        print("Minutes Used : \(minutesUsed)")
+        print("Internet Used : \(internetUsed)")
+        print("Bill Amount : \(billAmount)")
         
     }
     
