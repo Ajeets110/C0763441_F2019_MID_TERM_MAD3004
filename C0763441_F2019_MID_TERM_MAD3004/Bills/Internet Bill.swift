@@ -24,4 +24,17 @@ class InternetBill: Bill {
         super.init(billId: billId, billDate: billDate, billType: billType)
         
     }
+    
+    //  Function Overriding
+    
+    override func display() {
+        print("***************************************")
+        print("Bill Id : \(billId)")
+        print("Bill Type : \(billType)")
+        print("Bill Date : \(billDate)")
+        
+    }
+    
+    
+    
 }
