@@ -15,8 +15,11 @@ class HydroBill: Bill{
     var billAmount : Float
     
     //  initializer
-    init(billId : String , billDate : String, billType : bTypes, agencyName : String, unitConsumed : Int , billAmount : Float) {
-        agencyName = agencyName
+    init(billID : String , billDate : String, billType : bTypes, agencyName : String, unitConsumed : Int , billAmount : Float) {
+        self.agencyName = agencyName
+        self.unitConsumed = unitConsumed
+        self.billAmount = billAmount
+        super.init(billId : billID, billDate : billDate, billType : billType)
         
     }
     
