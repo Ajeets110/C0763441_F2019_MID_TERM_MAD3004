@@ -15,7 +15,7 @@ class HydroBill: Bill{
     var billAmount : Float
     
     //  initializer
-    init(billID : String , billDate : String, billType : bTypes, agencyName : String, unitConsumed : Int , billAmount : Float) {
+    init(billID : Int , billDate : String, billType : bTypes, agencyName : String, unitConsumed : Int , billAmount : Float) {
         self.agencyName = agencyName
         self.unitConsumed = unitConsumed
         self.billAmount = billAmount
@@ -25,7 +25,7 @@ class HydroBill: Bill{
     
     //  override
     override func display() {
-        print("Bill ID : \(billID)")
+        print("Bill ID : \(billId)")
         print("BillDate : \(billDate)")
         print("Bill Type : \(billType)")
         print("Agency Name : \(agencyName)")

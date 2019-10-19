@@ -18,7 +18,7 @@ class MobileBill: Bill{
     var billAmount : Float
     
     //  Initializer
-    init(manufacturerName:String, planName:String, phoneNumber:Int, internetUsed:Float, minutesUsed:Int, billAmount:Float, billId : String, billType : bTypes, billDate: String) {
+    init(manufacturerName:String, planName:String, phoneNumber:Int, internetUsed:Float, minutesUsed:Int, billAmount:Float, billId : Int, billType : bTypes, billDate: String) {
         self.manufacturerName = manufacturerName
         self.planName = planName
         self.phoneNumber = phoneNumber
@@ -30,7 +30,7 @@ class MobileBill: Bill{
     
     //  Override
     override func display() {
-        print("Bill ID : \(billID)")
+        print("Bill ID : \(billId)")
         print("BillDate : \(billDate)")
         print("Bill Type : \(billType)")
         print("Manufacturer Name : \(manufacturerName)")

@@ -9,4 +9,5 @@
 import Foundation
 
 var i1 = InternetBill(providerName : "Rogers", gbUsed : 500, billAmount : 56.50, billId : 1 , billDate : "Wednesday, 19 Jule, 2019", billType : Bill.bTypes.Internet)
+var m1 = MobileBill(manufacturerName:"Galaxy", planName:"Prepaid Talk", phoneNumber:6464647484, internetUsed:5, minutesUsed:356, billAmount:250.0, billId : 1, billType : Bill.bTypes.Mobile, billDate: "Wednesdar, 19 June, 2019")
 
