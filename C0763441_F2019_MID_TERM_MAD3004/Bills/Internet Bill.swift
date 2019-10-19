@@ -9,9 +9,10 @@
 import Foundation
 class InternetBill {
     
-    
+    //  Variable declaration
     var providerName : String
     var gbUsed : Float
     var billAmount : Float
-
+    
+    
 }
