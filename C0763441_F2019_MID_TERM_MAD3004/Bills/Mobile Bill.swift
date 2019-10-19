@@ -28,5 +28,15 @@ class MobileBill: Bill{
         super.init(billId: billId, billDate: billDate, billType: billType)
     }
     
+    //  Override
+    override func display() {
+        print("Bill ID : \(billID)")
+        print("BillDate : \(billDate)")
+        print("Bill Type : \(billType)")
+        print("<#T##items: Any...##Any#>")
+        
+    }
+    
+    
     
 }
