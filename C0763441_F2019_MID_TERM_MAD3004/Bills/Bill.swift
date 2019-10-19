@@ -9,9 +9,9 @@
 import Foundation
 class Bill {
     //  Variable Declaration
-    var billID : String?
-    var billDate : String?
-    var amount : Float?
+    var billID : String
+    var billDate : String
+    var amount : Float
     enum bTypes {
         case Internet
         case Mobile
