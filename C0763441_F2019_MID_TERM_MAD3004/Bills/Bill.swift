@@ -7,12 +7,20 @@
 //
 
 import Foundation
-//  Variable Declaration
-var billID : String?
-var date : String?
-var amount : Float?
-enum bTypes {
-    case Internet
-    case Mobile
-    case Hydro
+class Bill {
+    //  Variable Declaration
+    var billID : String?
+    var date : String?
+    var amount : Float?
+    enum bTypes {
+        case Internet
+        case Mobile
+        case Hydro
+    }
+    var billType : bTypes?
+    
+    
+    
+    
+    
 }
