@@ -13,6 +13,7 @@
 		9B6DB4DB235BC5CC00ED0797 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DB4DA235BC5CC00ED0797 /* IDisplay.swift */; };
 		9B6DB4DD235BC8A700ED0797 /* Mobile Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DB4DC235BC8A700ED0797 /* Mobile Bill.swift */; };
 		9B6DB4DF235BCC9900ED0797 /* Hydro Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DB4DE235BCC9900ED0797 /* Hydro Bill.swift */; };
+		9B6DB4E2235BCFCB00ED0797 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DB4E1235BCFCB00ED0797 /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		9B6DB4DA235BC5CC00ED0797 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 		9B6DB4DC235BC8A700ED0797 /* Mobile Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mobile Bill.swift"; sourceTree = "<group>"; };
 		9B6DB4DE235BCC9900ED0797 /* Hydro Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hydro Bill.swift"; sourceTree = "<group>"; };
+		9B6DB4E1235BCFCB00ED0797 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				9B6DB4CE235BB9F000ED0797 /* main.swift */,
+				9B6DB4E0235BCFB800ED0797 /* Customer */,
 				9B6DB4D5235BBC9200ED0797 /* Bills */,
 			);
 			path = C0763441_F2019_MID_TERM_MAD3004;
@@ -83,6 +86,14 @@
 				9B6DB4DE235BCC9900ED0797 /* Hydro Bill.swift */,
 			);
 			path = Bills;
+			sourceTree = "<group>";
+		};
+		9B6DB4E0235BCFB800ED0797 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				9B6DB4E1235BCFCB00ED0797 /* Customer.swift */,
+			);
+			path = Customer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B6DB4DF235BCC9900ED0797 /* Hydro Bill.swift in Sources */,
+				9B6DB4E2235BCFCB00ED0797 /* Customer.swift in Sources */,
 				9B6DB4DB235BC5CC00ED0797 /* IDisplay.swift in Sources */,
 				9B6DB4DD235BC8A700ED0797 /* Mobile Bill.swift in Sources */,
 				9B6DB4D7235BBCD900ED0797 /* Bill.swift in Sources */,
