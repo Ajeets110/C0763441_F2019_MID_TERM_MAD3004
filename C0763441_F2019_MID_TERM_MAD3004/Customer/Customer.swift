@@ -10,6 +10,14 @@ import Foundation
 class Customer{
     
     //  Variable declaration
+    var customerId : Int
+    var firstName : String
+    var lastName : String
+    var fullName : String {
+        return firstName + " " + lastName
+    }
+    var email : String
+    var billDictionary = Dictionary<String, AnyObject>()
     
     
 }
