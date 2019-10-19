@@ -18,9 +18,9 @@ class Customer : IDisplay{
         return firstName + " " + lastName
     }
     var email : String
-    var billDictionary = Dictionary<String, Bill>()
+    var billDictionary = Dictionary<Int, Bill>()
     
-    init(customerID : Int, firstName : String, lastName : String, email : String, billDictionary : Dictionary<String, Bill>){
+    init(customerID : Int, firstName : String, lastName : String, email : String, billDictionary : Dictionary<Int, Bill>){
         self.customerId = customerID
         self.firstName = firstName
         self.lastName = lastName
