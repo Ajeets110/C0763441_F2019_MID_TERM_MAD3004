@@ -7,7 +7,8 @@
 //
 
 import Foundation
-class Customer{
+class Customer : IDisplay{
+    
     
     //  Variable declaration
     var customerId : Int
@@ -17,13 +18,26 @@ class Customer{
         return firstName + " " + lastName
     }
     var email : String
-    var billDictionary = Dictionary<String, AnyObject>()
+    var billDictionary = Dictionary<String, Bill>()
     
-    init(customerID : Int, firstName : String, lastName : String, email : String, billDictionary : Dictionary<String, AnyObject>){
+    init(customerID : Int, firstName : String, lastName : String, email : String, billDictionary : Dictionary<String, Bill>){
         self.customerId = customerID
         self.firstName = firstName
         self.lastName = lastName
         self.email = email
         self.billDictionary = billDictionary
     }
+    
+    //  override
+    func display() {
+        print("*****************************")
+        print("Customer Id : \(customerId)")
+        print("Full Name : \(fullName)")
+        for i in billDictionary.values
+        {
+            i.display()
+        }
+
+    }
 }
+
