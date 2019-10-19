@@ -7,12 +7,14 @@
 //
 
 import Foundation
-class HydroBill{
+class HydroBill: Bill{
     
     //  Variable declaration
     var agencyName : String
     var unitConsumed : Int
     var billAmount : Float
+    
+    //  initializer
     
     
 }
