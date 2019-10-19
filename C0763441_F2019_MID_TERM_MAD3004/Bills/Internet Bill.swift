@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class InternetBill {
+class InternetBill: Bill {
     
     //  Variable declaration
     var providerName : String
