@@ -11,6 +11,7 @@
 		9B6DB4D7235BBCD900ED0797 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DB4D6235BBCD900ED0797 /* Bill.swift */; };
 		9B6DB4D9235BC16500ED0797 /* Internet Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DB4D8235BC16500ED0797 /* Internet Bill.swift */; };
 		9B6DB4DB235BC5CC00ED0797 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DB4DA235BC5CC00ED0797 /* IDisplay.swift */; };
+		9B6DB4DD235BC8A700ED0797 /* Mobile Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DB4DC235BC8A700ED0797 /* Mobile Bill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		9B6DB4D6235BBCD900ED0797 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		9B6DB4D8235BC16500ED0797 /* Internet Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Internet Bill.swift"; sourceTree = "<group>"; };
 		9B6DB4DA235BC5CC00ED0797 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		9B6DB4DC235BC8A700ED0797 /* Mobile Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mobile Bill.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				9B6DB4D6235BBCD900ED0797 /* Bill.swift */,
 				9B6DB4D8235BC16500ED0797 /* Internet Bill.swift */,
 				9B6DB4DA235BC5CC00ED0797 /* IDisplay.swift */,
+				9B6DB4DC235BC8A700ED0797 /* Mobile Bill.swift */,
 			);
 			path = Bills;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B6DB4DB235BC5CC00ED0797 /* IDisplay.swift in Sources */,
+				9B6DB4DD235BC8A700ED0797 /* Mobile Bill.swift in Sources */,
 				9B6DB4D7235BBCD900ED0797 /* Bill.swift in Sources */,
 				9B6DB4CF235BB9F000ED0797 /* main.swift in Sources */,
 				9B6DB4D9235BC16500ED0797 /* Internet Bill.swift in Sources */,
