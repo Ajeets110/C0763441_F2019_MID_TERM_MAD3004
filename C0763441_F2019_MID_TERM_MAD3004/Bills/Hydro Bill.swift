@@ -10,6 +10,9 @@ import Foundation
 class HydroBill{
     
     //  Variable declaration
+    var agencyName : String
+    var unitConsumed : Int
+    var billAmount : Float
     
     
 }
