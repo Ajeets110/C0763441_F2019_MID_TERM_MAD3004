@@ -7,7 +7,11 @@
 //
 
 import Foundation
-class Bill {
+class Bill: IDisplay {
+    
+    func display() {
+            
+    }
     //  Variable Declaration
     var billID : String
     var billDate : String
