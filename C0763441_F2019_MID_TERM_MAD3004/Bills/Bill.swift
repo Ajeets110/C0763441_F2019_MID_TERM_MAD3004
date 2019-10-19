@@ -10,7 +10,7 @@ import Foundation
 class Bill {
     //  Variable Declaration
     var billID : String?
-    var date : String?
+    var billDate : String?
     var amount : Float?
     enum bTypes {
         case Internet
@@ -19,8 +19,12 @@ class Bill {
     }
     var billType : bTypes?
     
-    
-    
+    init(billId : String , billDate : String, billType : bTypes) {
+        self.billID = billId
+        self.billDate = billDate
+        self.billType = billType
+    }
+
     
     
 }
