@@ -14,5 +14,9 @@ class InternetBill {
     var gbUsed : Float
     var billAmount : Float
     
-    
+    //  Initializer
+    init(providerName : String, gbUsed : Float, billAmount : Float, billId : String , billDate : String, billType : bill.bTypes){
+        
+        
+    }
 }
