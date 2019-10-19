@@ -11,8 +11,8 @@ import Foundation
 var billID : String?
 var date : String?
 var amount : Float?
-enum types {
-    case
-    case
-    case
+enum bTypes {
+    case Internet
+    case Mobile
+    case Hydro
 }
