@@ -29,9 +29,12 @@ class InternetBill: Bill {
     
     override func display() {
         print("***************************************")
-        print("Bill Id : \(billId)")
+        print("Bill Id : \(billID)")
         print("Bill Type : \(billType)")
         print("Bill Date : \(billDate)")
+        print("Provider Name : \(providerName)")
+        print("Data Used : \(gbUsed)")
+        print("Bill Amount : \(billAmount)")
         
     }
     
