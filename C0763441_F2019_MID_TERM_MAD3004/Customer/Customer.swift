@@ -19,5 +19,11 @@ class Customer{
     var email : String
     var billDictionary = Dictionary<String, AnyObject>()
     
-    
+    init(customerID : Int, firstName : String, lastName : String, email : String, billDictionary : Dictionary<String, AnyObject>){
+        self.customerId = customerID
+        self.firstName = firstName
+        self.lastName = lastName
+        self.email = email
+        self.billDictionary = billDictionary
+    }
 }
