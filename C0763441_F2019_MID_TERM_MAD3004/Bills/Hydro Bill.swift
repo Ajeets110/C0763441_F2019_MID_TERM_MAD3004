@@ -23,4 +23,13 @@ class HydroBill: Bill{
         
     }
     
+    //  override
+    override func display() {
+        print("Bill ID : \(billID)")
+        print("BillDate : \(billDate)")
+        print("Bill Type : \(billType)")
+        print("Agency Name : \(agencyName)")
+        print("Unit Consumed : \(unitConsumed)")
+        print("Bill Amount : \(billAmount)")
+    }
 }
