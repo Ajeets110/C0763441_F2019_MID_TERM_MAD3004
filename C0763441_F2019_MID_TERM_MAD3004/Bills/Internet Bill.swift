@@ -15,7 +15,7 @@ class InternetBill: Bill {
     var billAmount : Float
     
     //  Initializer
-    init(providerName : String, gbUsed : Float, billAmount : Float, billId : String , billDate : String, billType : Bill.bTypes){
+    init(providerName : String, gbUsed : Float, billAmount : Float, billId : Int , billDate : String, billType : Bill.bTypes){
         
         
         self.providerName = providerName
@@ -29,12 +29,12 @@ class InternetBill: Bill {
     
     override func display() {
         print("***************************************")
-        print("Bill Id : \(billID)")
+        print("Bill Id : \(billId)")
         print("Bill Type : \(billType)")
         print("Bill Date : \(billDate)")
         print("Provider Name : \(providerName)")
-        print("Data Used : \(gbUsed)")
-        print("Bill Amount : \(billAmount)")
+        print("Data Used : \(gbUsed) GB")
+        print("Bill Amount : $ \(billAmount)")
         
     }
     

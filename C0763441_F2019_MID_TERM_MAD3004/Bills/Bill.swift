@@ -13,7 +13,7 @@ class Bill: IDisplay {
             
     }
     //  Variable Declaration
-    var billID : String
+    var billId : Int
     var billDate : String
     var amount : Float
     enum bTypes {
@@ -23,8 +23,8 @@ class Bill: IDisplay {
     }
     var billType : bTypes?
     
-    init(billId : String , billDate : String, billType : bTypes) {
-        self.billID = billId
+    init(billId : Int , billDate : String, billType : bTypes) {
+        self.billId = billId
         self.billDate = billDate
         self.billType = billType
     }
