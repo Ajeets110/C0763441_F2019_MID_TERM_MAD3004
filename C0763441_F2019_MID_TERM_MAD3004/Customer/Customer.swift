@@ -28,16 +28,27 @@ class Customer : IDisplay{
         self.billDictionary = billDictionary
     }
     
+    init(customerID : Int, firstName : String, lastName : String, email : String){
+        self.customerId = customerID
+        self.firstName = firstName
+        self.lastName = lastName
+        self.email = email
+    }
     //  override
     func display() {
         print("*****************************")
         print("Customer Id : \(customerId)")
         print("Full Name : \(fullName)")
+        if billDictionary != nil{
         for i in billDictionary.values
         {
             i.display()
         }
-
+        }
+        else {
+            print("user has no bill")
+        }
+    
     }
 }
 

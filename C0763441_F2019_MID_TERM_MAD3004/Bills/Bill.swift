@@ -15,13 +15,13 @@ class Bill: IDisplay {
     //  Variable Declaration
     var billId : Int
     var billDate : String
-    var amount : Float
+    //var amount : Float
     enum bTypes {
         case Internet
         case Mobile
         case Hydro
     }
-    var billType : bTypes?
+    var billType : bTypes
     
     init(billId : Int , billDate : String, billType : bTypes) {
         self.billId = billId

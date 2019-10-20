@@ -30,6 +30,9 @@ class MobileBill: Bill{
     
     //  Override
     override func display() {
+        print("*****************************")
+        print("       Bill Details      ")
+        print("*****************************")
         print("Bill ID : \(billId)")
         print("BillDate : \(billDate)")
         print("Bill Type : \(billType)")
@@ -37,7 +40,7 @@ class MobileBill: Bill{
         print("Plan Name : \(planName)")
         print("Minutes Used : \(minutesUsed)")
         print("Internet Used : \(internetUsed)")
-        print("Bill Amount : \(billAmount)")
+        print("Bill Amount : $\(billAmount)")
         
     }
     

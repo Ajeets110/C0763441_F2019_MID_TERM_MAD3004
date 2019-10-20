@@ -10,7 +10,5 @@ import Foundation
 
 protocol IDisplay {
     
-    func display() {
-    
-    }
+    func display() 
 }

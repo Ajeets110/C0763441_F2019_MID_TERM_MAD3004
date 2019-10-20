@@ -28,6 +28,8 @@ class InternetBill: Bill {
     //  Function Overriding
     
     override func display() {
+        print("*****************************")
+        print("       Bill Details      ")
         print("***************************************")
         print("Bill Id : \(billId)")
         print("Bill Type : \(billType)")
