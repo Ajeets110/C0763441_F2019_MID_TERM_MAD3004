@@ -19,3 +19,8 @@ var i2 = InternetBill(providerName : "Fido", gbUsed : 600, billAmount : 70.00, b
 var m2 = MobileBill(manufacturerName:"Apple", planName:"Prepaid Talk + Messages", phoneNumber:6476954211, internetUsed:6, minutesUsed:124, billAmount:80.00, billId : 2, billType : Bill.bTypes.Mobile, billDate: "Friday, 19 June, 2019")
 var h2 = HydroBill(billID : 2 , billDate : "Saturday, 19 June, 2019", billType : Bill.bTypes.Hydro, agencyName : "Planet Energy", unitConsumed : 30 , billAmount : 70.00)
 var c2 = Customer(customerID : 2, firstName : "Pritesh", lastName : "Patel", email : "priteshpatel7@gmail.com", billDictionary : [i2.billId : i2, m2.billId : m2, h2.billId : h2])
+
+//  created dictionary for storing customer
+var custDictionary = Dictionary<Int,Customer>()
+
+custDictionary.updateValue(c1, forKey: c1.customerId)
